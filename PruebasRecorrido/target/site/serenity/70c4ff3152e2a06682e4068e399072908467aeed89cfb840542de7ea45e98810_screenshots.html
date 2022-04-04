@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="236096935d74726127f2badf05d93bd2de8ca185cc8b39850b1f7168ed8fcba3.html">Validar El Funcionamiento Del Modulo Radicacion De Honorarios</a></span>
+                > <span class="truncate-60"><a
+                    href="70c4ff3152e2a06682e4068e399072908467aeed89cfb840542de7ea45e98810.html">Comprobar que al radicar los honorarios con un medico no obligado lo permita y quede radicado </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-04-2022 14:05</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Validar El Funcionamiento Del Modulo Radicacion De Honorarios </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Yo como medico<br />
+Necesito poder radicar los diferentes documentos asociados a mis honorarios<br />
+para obtener respuesta sobre estos
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="010b4babbbe7e347a47b90c8b422d73c0fd4f23661f77d7d741904d312268898.html">Radicacion No Obligados
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="3fcdd6859815044ffc465424f091ff6e1971452cc0a917c1bb774520baaace16.html">Pruebas De Recorrido
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Comprobar que al radicar los honorarios con un medico no obligado lo permita y quede radicado
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que el usuario ingresa al modulo radicar factura<br><table class='embedded'><thead><th>tipoDoc</th><th>user</th><th>password</th></thead><tbody><tr><td>&lt;tipoDoc&gt;</td><td>&lt;user&gt;</td><td>&lt;password&gt;</td></tr></tbody></table><br>Cuando ingresa los datos necesarios de la radicacion exitosa<br><table class='embedded'><thead><th>email</th><th>nFactura</th><th>tipoDocumento</th><th>destino</th><th>ejercicio</th><th>periodo</th><th>formaPago</th><th>observaciones</th><th>nombreArchivo</th><th>tipoArchivo</th><th>tipoArchivoDos</th></thead><tbody><tr><td>&lt;email&gt;</td><td>&lt;nFactura&gt;</td><td>&lt;tipoDocumento&gt;</td><td>&lt;destino&gt;</td><td>&lt;ejercicio&gt;</td><td>&lt;periodo&gt;</td><td>&lt;formaPago&gt;</td><td>&lt;observaciones&gt;</td><td>&lt;nombreArchivo&gt;</td><td>&lt;tipoArchivo&gt;</td><td>&lt;tipoArchivoDos&gt;</td></tr></tbody></table><br>Entonces el valida que la transaccion fue finalizada correctamente<br><table class='embedded'><tbody><tr><td>mensajeAprobado</td></tr><tr><td>&lt;mensajeAprobado&gt;</td></tr></tbody></table></div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="81645de2b94509fe3b38b2f2fff5fc9e9f2fbd39bbfa7fb224c17089189f281c.png" title=" Example: {tipoDoc=1, user=80424541, password=Ab1234567, email=gabriel.guerrero@gohost.co, nFactura=1212, tipoDocumento=Cuenta de Cobro, destino=Honorarios, ejercicio=2021, periodo='Junio', formaPago=EFECTIVO, observaciones=pago en efectivo, nombreArchivo=prueba, tipoArchivo=Cuenta de cobro, tipoArchivoDos=Aportes, mensajeAprobado=Solicitud enviada}" width="1366"/>
+                <img src="81645de2b94509fe3b38b2f2fff5fc9e9f2fbd39bbfa7fb224c17089189f281c.png" title=" Dado que el usuario ingresa al modulo radicar factura
+| tipoDoc | user | password |
+| 1 | 80424541 | Ab1234567 |" width="1366"/>
+                <img src="81645de2b94509fe3b38b2f2fff5fc9e9f2fbd39bbfa7fb224c17089189f281c.png" title=" Gabriel open up" width="1366"/>
+                <img src="81645de2b94509fe3b38b2f2fff5fc9e9f2fbd39bbfa7fb224c17089189f281c.png" title=" Gabriel opens the Transar page" width="1366"/>
+                <img src="81645de2b94509fe3b38b2f2fff5fc9e9f2fbd39bbfa7fb224c17089189f281c.png" title=" Gabriel open up (completed)" width="1366"/>
+                <img src="81645de2b94509fe3b38b2f2fff5fc9e9f2fbd39bbfa7fb224c17089189f281c.png" title=" Gabriel login" width="1366"/>
+                <img src="81645de2b94509fe3b38b2f2fff5fc9e9f2fbd39bbfa7fb224c17089189f281c.png" title=" Gabriel selects 1 in Campo tipo Doc" width="1366"/>
+                <img src="c05f09248654338cb0ac1644d807438dd337ac21ff2f58316ecea460f0f01218.png" title=" Gabriel selects 1 in Campo tipo Doc (completed)" width="1366"/>
+                <img src="c05f09248654338cb0ac1644d807438dd337ac21ff2f58316ecea460f0f01218.png" title=" Gabriel enters '80424541' into  Campo usuario" width="1366"/>
+                <img src="56438ff96af910c7e677a6ff0072f5374229d8b73d09e3ba0339b4f306d41fb5.png" title=" Gabriel enters '80424541' into  Campo usuario (completed)" width="1366"/>
+                <img src="56438ff96af910c7e677a6ff0072f5374229d8b73d09e3ba0339b4f306d41fb5.png" title=" Gabriel enters 'Ab1234567' into Campo contrase&Atilde;&plusmn;a " width="1366"/>
+                <img src="d1fd47e6e8f31c1116497e9aa33a057995d6b5468c50d27a0f4144e3365705f9.png" title=" Gabriel enters 'Ab1234567' into Campo contrase&Atilde;&plusmn;a  (completed)" width="1366"/>
+                <img src="d1fd47e6e8f31c1116497e9aa33a057995d6b5468c50d27a0f4144e3365705f9.png" title=" Gabriel clicks on " width="1366"/>
+                <img src="1653336411187e11db5701051c34d1f48e4a3b3ae7466933a3a91fe47d4916e5.png" title=" Gabriel clicks on  (completed)" width="1366"/>
+                <img src="1653336411187e11db5701051c34d1f48e4a3b3ae7466933a3a91fe47d4916e5.png" title=" Gabriel login (completed)" width="1366"/>
+                <img src="1653336411187e11db5701051c34d1f48e4a3b3ae7466933a3a91fe47d4916e5.png" title=" Gabriel enter" width="1366"/>
+                <img src="1653336411187e11db5701051c34d1f48e4a3b3ae7466933a3a91fe47d4916e5.png" title=" Gabriel clicks on " width="1366"/>
+                <img src="f067cf3ddc7e4b9b526f9230e697372a5fa3602259e1c63919133b84e32af865.png" title=" Gabriel clicks on  (completed)" width="1366"/>
+                <img src="f067cf3ddc7e4b9b526f9230e697372a5fa3602259e1c63919133b84e32af865.png" title=" Gabriel clicks on " width="1366"/>
+                <img src="32f376b477481d4cee59ec24600253f1cac90c502a3f9986eafebd110c660027.png" title=" Gabriel clicks on  (completed)" width="1366"/>
+                <img src="f7e0cc0aea9692b9d58725f431b7329dc97f3aff744bd71a8985a6d873b2c84f.png" title=" Gabriel enter (completed)" width="1366"/>
+                <img src="f7e0cc0aea9692b9d58725f431b7329dc97f3aff744bd71a8985a6d873b2c84f.png" title=" Dado que el usuario ingresa al modulo radicar factura
+| tipoDoc | user | password |
+| 1 | 80424541 | Ab1234567 | (completed)" width="1366"/>
+                <img src="f7e0cc0aea9692b9d58725f431b7329dc97f3aff744bd71a8985a6d873b2c84f.png" title=" Cuando ingresa los datos necesarios de la radicacion exitosa
+| email | nFactura | tipoDocumento | destino | ejercicio | periodo | formaPago | observaciones | nombreArchivo | tipoArchivo | tipoArchivoDos |
+| gabriel.guerrero@gohost.co | 1212 | Cuenta de Cobro | Honorarios | 2021 | 'Junio' | EFECTIVO | pago en efectivo | prueba | Cuenta de cobro | Aportes |" width="1366"/>
+                <img src="f7e0cc0aea9692b9d58725f431b7329dc97f3aff744bd71a8985a6d873b2c84f.png" title=" Gabriel enter the general data" width="1366"/>
+                <img src="04adfd84b4e1cc01f85742ad52b1045c1524ca7f3801ae3f5d98c085535a8394.png" title=" Gabriel clicks on " width="1366"/>
+                <img src="6dec79371ea9522f2680dfc1d7ea835ec55963fc6bc49b6c116a700b3350f0e6.png" title=" Gabriel clicks on  (completed)" width="1366"/>
+                <img src="32cf9aad84936fb2deac28b231d83dab092ac5c63bb0b98aa4c098264b749f75.png" title=" Gabriel enters 'gabriel.guerrero@gohost.co' into " width="1366"/>
+                <img src="2325feb318fc9a7462778ad66fda61f7c89fd87d67097b84c5caa2a6dbf56e83.png" title=" Gabriel enters 'gabriel.guerrero@gohost.co' into  (completed)" width="1366"/>
+                <img src="2325feb318fc9a7462778ad66fda61f7c89fd87d67097b84c5caa2a6dbf56e83.png" title=" Gabriel enters 'Cuenta de Cobro' into " width="1366"/>
+                <img src="031e1cbf77760fe675a0141c1f08e66b1fbe82f13d83c62399af3f19850d19c2.png" title=" Gabriel enters 'Cuenta de Cobro' into  (completed)" width="1366"/>
+                <img src="031e1cbf77760fe675a0141c1f08e66b1fbe82f13d83c62399af3f19850d19c2.png" title=" Gabriel enters '1212' into " width="1366"/>
+                <img src="3f5baba78b9556f78a8a44b2a9fb7d4a78d3fcfe592d8416bb2b133ad36700a2.png" title=" Gabriel enters '1212' into  (completed)" width="1366"/>
+                <img src="3f5baba78b9556f78a8a44b2a9fb7d4a78d3fcfe592d8416bb2b133ad36700a2.png" title=" Gabriel enters 'Honorarios' then hits [TAB] into " width="1366"/>
+                <img src="9fb3c8a4c25c95d26220848d60d00c9bfd0541cbfdb98f93c8971c80dd769c90.png" title=" Gabriel enters 'Honorarios' then hits [TAB] into  (completed)" width="1366"/>
+                <img src="9fb3c8a4c25c95d26220848d60d00c9bfd0541cbfdb98f93c8971c80dd769c90.png" title=" Gabriel enter the general data (completed)" width="1366"/>
+                <img src="9fb3c8a4c25c95d26220848d60d00c9bfd0541cbfdb98f93c8971c80dd769c90.png" title=" Gabriel enter honorarios data" width="1366"/>
+                <img src="9fb3c8a4c25c95d26220848d60d00c9bfd0541cbfdb98f93c8971c80dd769c90.png" title=" Gabriel clicks on " width="1366"/>
+                <img src="d30d2d2da3cc1bd44e5a6ed6a74c18089ddde8a12452db5ca5c57eb77c3d3702.png" title=" Gabriel clicks on  (completed)" width="1366"/>
+                <img src="d30d2d2da3cc1bd44e5a6ed6a74c18089ddde8a12452db5ca5c57eb77c3d3702.png" title=" Gabriel clicks on " width="1366"/>
+                <img src="ebd1d69ab8db07e5dd7e9478d26f1983e8f6eac8cae9edc625976f411d77f4e0.png" title=" Gabriel clicks on  (completed)" width="1366"/>
+                <img src="ebd1d69ab8db07e5dd7e9478d26f1983e8f6eac8cae9edc625976f411d77f4e0.png" title=" Gabriel clicks on [By.xpath: //li[contains(text(),2021)]]" width="1366"/>
+                <img src="38d8a6f75d4ecce36a3e89b0c27ef190e7cbe8930d918078aa1c77f3edd0a5fa.png" title=" Gabriel clicks on [By.xpath: //li[contains(text(),2021)]] (completed)" width="1366"/>
+                <img src="38d8a6f75d4ecce36a3e89b0c27ef190e7cbe8930d918078aa1c77f3edd0a5fa.png" title=" Gabriel clicks on " width="1366"/>
+                <img src="56258220106bb51fc4257be2be9f95cb47591f65e47adeaab2a3d845874de61a.png" title=" Gabriel clicks on  (completed)" width="1366"/>
+                <img src="56258220106bb51fc4257be2be9f95cb47591f65e47adeaab2a3d845874de61a.png" title=" Gabriel clicks on [By.xpath: //li[contains(text(),'Junio')]]" width="1366"/>
+                <img src="78b5cea0a611e65a11ad8def20fc044d57436ecbf0a9a93429a953e732742081.png" title=" Gabriel clicks on [By.xpath: //li[contains(text(),'Junio')]] (completed)" width="1366"/>
+                <img src="78b5cea0a611e65a11ad8def20fc044d57436ecbf0a9a93429a953e732742081.png" title=" Gabriel clicks on " width="1366"/>
+                <img src="1728e45f7810c23ceb27774d022528b045859d00dd306926c62dfcd1cc793b0c.png" title=" Gabriel clicks on  (completed)" width="1366"/>
+                <img src="1728e45f7810c23ceb27774d022528b045859d00dd306926c62dfcd1cc793b0c.png" title=" Gabriel enter honorarios data (completed)" width="1366"/>
+                <img src="1728e45f7810c23ceb27774d022528b045859d00dd306926c62dfcd1cc793b0c.png" title=" Gabriel enter info pago data" width="1366"/>
+                <img src="1728e45f7810c23ceb27774d022528b045859d00dd306926c62dfcd1cc793b0c.png" title=" Gabriel clicks on " width="1366"/>
+                <img src="90a6efeb836f9b022aa3ef2070cfd49feece816ab089845f565d5760c982188d.png" title=" Gabriel clicks on  (completed)" width="1366"/>
+                <img src="90a6efeb836f9b022aa3ef2070cfd49feece816ab089845f565d5760c982188d.png" title=" Gabriel enters 'EFECTIVO' then hits [TAB] into " width="1366"/>
+                <img src="21054421f77b6295d3c2b8860e7eadb5f48cae5af66fa132e0b167cba48011d9.png" title=" Gabriel enters 'EFECTIVO' then hits [TAB] into  (completed)" width="1366"/>
+                <img src="21054421f77b6295d3c2b8860e7eadb5f48cae5af66fa132e0b167cba48011d9.png" title=" Gabriel enters 'pago en efectivo' into " width="1366"/>
+                <img src="237c8a1ca5c1e4d7f73ba1727fef246161fa72654d496b38372129429b1fd9a7.png" title=" Gabriel enters 'pago en efectivo' into  (completed)" width="1366"/>
+                <img src="237c8a1ca5c1e4d7f73ba1727fef246161fa72654d496b38372129429b1fd9a7.png" title=" Gabriel enter info pago data (completed)" width="1366"/>
+                <img src="237c8a1ca5c1e4d7f73ba1727fef246161fa72654d496b38372129429b1fd9a7.png" title=" Gabriel enter adjuntos data" width="1366"/>
+                <img src="237c8a1ca5c1e4d7f73ba1727fef246161fa72654d496b38372129429b1fd9a7.png" title=" Gabriel clicks on " width="1366"/>
+                <img src="fdfb25db703fcc67164bd8a4418cf3380acec52335f58433c847976f0e073f12.png" title=" Gabriel clicks on  (completed)" width="1366"/>
+                <img src="fdfb25db703fcc67164bd8a4418cf3380acec52335f58433c847976f0e073f12.png" title=" Upload file at src\test\resources\archivos\cedula.pdf to " width="1366"/>
+                <img src="cc0420834f34f869c6058f1ee2b4e6acec7ab0229c42d6079c8f60575e637ba8.png" title=" Upload file at src\test\resources\archivos\cedula.pdf to  (completed)" width="1366"/>
+                <img src="cc0420834f34f869c6058f1ee2b4e6acec7ab0229c42d6079c8f60575e637ba8.png" title=" Gabriel enters 'Cuenta de cobro' into " width="1366"/>
+                <img src="6b8e282742c2d2db4761948cf9647059c3508cbc0d9b9f9cbea7340c7207b483.png" title=" Gabriel enters 'Cuenta de cobro' into  (completed)" width="1366"/>
+                <img src="6b8e282742c2d2db4761948cf9647059c3508cbc0d9b9f9cbea7340c7207b483.png" title=" Gabriel enters 'prueba' into " width="1366"/>
+                <img src="d091dd834fbf2d3a6b3ce6c00fdef653bafe648843352409d50d58a8d47a793b.png" title=" Gabriel enters 'prueba' into  (completed)" width="1366"/>
+                <img src="d091dd834fbf2d3a6b3ce6c00fdef653bafe648843352409d50d58a8d47a793b.png" title=" Gabriel clicks on " width="1366"/>
+                <img src="afaddb1e9c5c511988093b2e5bbc597526817fe1f38495064ac9d768683a22ec.png" title=" Gabriel clicks on  (completed)" width="1366"/>
+                <img src="afaddb1e9c5c511988093b2e5bbc597526817fe1f38495064ac9d768683a22ec.png" title=" Upload file at src\test\resources\archivos\cedula.pdf to " width="1366"/>
+                <img src="978c45205947c01139e6e79159ad2f9d0aa4dc11393b709f2ede63ca3a1df2c4.png" title=" Upload file at src\test\resources\archivos\cedula.pdf to  (completed)" width="1366"/>
+                <img src="978c45205947c01139e6e79159ad2f9d0aa4dc11393b709f2ede63ca3a1df2c4.png" title=" Gabriel enters 'Aportes' into " width="1366"/>
+                <img src="088fd56857b89cfeb1dbe4bd8dfd8fa85b1b057e7692e27ec4dcbc98fa5af63f.png" title=" Gabriel enters 'Aportes' into  (completed)" width="1366"/>
+                <img src="088fd56857b89cfeb1dbe4bd8dfd8fa85b1b057e7692e27ec4dcbc98fa5af63f.png" title=" Gabriel enters 'prueba' into " width="1366"/>
+                <img src="13b0e2e8aa415caece950a055ada22dd8afe62d59bfa8fcaec750e5dc6571e8b.png" title=" Gabriel enters 'prueba' into  (completed)" width="1366"/>
+                <img src="13b0e2e8aa415caece950a055ada22dd8afe62d59bfa8fcaec750e5dc6571e8b.png" title=" Gabriel clicks on " width="1366"/>
+                <img src="76a1c2747233579fd964cd63c35ad30af4734d039e449d5bd5ec631b18e0b2f8.png" title=" Gabriel clicks on  (completed)" width="1366"/>
+                <img src="76a1c2747233579fd964cd63c35ad30af4734d039e449d5bd5ec631b18e0b2f8.png" title=" Gabriel clicks on " width="1366"/>
+                <img src="8f00182fb4e91b96e92c6e849e4d165ef90823ff4955fbf22cef76bb1d7fd199.png" title=" Gabriel clicks on  (completed)" width="1366"/>
+                <img src="8f00182fb4e91b96e92c6e849e4d165ef90823ff4955fbf22cef76bb1d7fd199.png" title=" Gabriel clicks on " width="1366"/>
+                <img src="73bde5913564e515a5425b7be906a5f5298edd8c7bcfefc3f17daf8b3927f11d.png" title=" Gabriel clicks on  (completed)" width="1366"/>
+                <img src="73bde5913564e515a5425b7be906a5f5298edd8c7bcfefc3f17daf8b3927f11d.png" title=" Gabriel enter adjuntos data (completed)" width="1366"/>
+                <img src="73bde5913564e515a5425b7be906a5f5298edd8c7bcfefc3f17daf8b3927f11d.png" title=" Cuando ingresa los datos necesarios de la radicacion exitosa
+| email | nFactura | tipoDocumento | destino | ejercicio | periodo | formaPago | observaciones | nombreArchivo | tipoArchivo | tipoArchivoDos |
+| gabriel.guerrero@gohost.co | 1212 | Cuenta de Cobro | Honorarios | 2021 | 'Junio' | EFECTIVO | pago en efectivo | prueba | Cuenta de cobro | Aportes | (completed)" width="1366"/>
+                <img src="73bde5913564e515a5425b7be906a5f5298edd8c7bcfefc3f17daf8b3927f11d.png" title=" Entonces el valida que la transaccion fue finalizada correctamente
+| mensajeAprobado |
+| Solicitud enviada |" width="1366"/>
+                <img src="73bde5913564e515a5425b7be906a5f5298edd8c7bcfefc3f17daf8b3927f11d.png" title=" Then answer correcto" width="1366"/>
+                <img src="075216f3b0526e3ed14c115868b186061a2611dc54b61632361e4f5eef43a749.png" title=" Then answer correcto (completed)" width="1366"/>
+                <img src="075216f3b0526e3ed14c115868b186061a2611dc54b61632361e4f5eef43a749.png" title=" Entonces el valida que la transaccion fue finalizada correctamente
+| mensajeAprobado |
+| Solicitud enviada | (completed)" width="1366"/>
+                <img src="075216f3b0526e3ed14c115868b186061a2611dc54b61632361e4f5eef43a749.png" title=" Example: {tipoDoc=1, user=80424541, password=Ab1234567, email=gabriel.guerrero@gohost.co, nFactura=1212, tipoDocumento=Cuenta de Cobro, destino=Honorarios, ejercicio=2021, periodo='Junio', formaPago=EFECTIVO, observaciones=pago en efectivo, nombreArchivo=prueba, tipoArchivo=Cuenta de cobro, tipoArchivoDos=Aportes, mensajeAprobado=Solicitud enviada} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>

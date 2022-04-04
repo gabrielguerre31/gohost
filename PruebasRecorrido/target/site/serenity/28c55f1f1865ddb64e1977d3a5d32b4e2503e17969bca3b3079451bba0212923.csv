@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Validar el funcionamiento del modulo radicacion de honorarios","Comprobar que al radicar un honorario que no esta disponible en el periodo no lo permita y genere el mensaje de excepcion","SUCCESS","2022-04-04T14:05:05.655-05:00[America/Bogota]","0.0","23.82"
